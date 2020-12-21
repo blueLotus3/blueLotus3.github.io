@@ -39,9 +39,9 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 [Links I Chose:]
 | --------------- | -------------- |
----|[helloaileen.com](http://helloaileen.com/)| skill emblem pop animation|
+|[helloaileen.com](http://helloaileen.com/)| skill emblem pop animation
 |[eloise-ress-barrow.surge.sh](http://eloise-ress-barrow.surge.sh/#writing)| Top Nav Layout |
-|[lianapenn.com](https://www.lianapenn.com/)| project windows pop when hightlighted |
+|[lianapenn.com](https://www.lianapenn.com/)| project windows pop when hightlighted 
 
 ## Wireframes
 
