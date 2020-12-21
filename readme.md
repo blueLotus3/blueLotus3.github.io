@@ -37,7 +37,7 @@ Link To Site  | One Thing I'd Like To Incorporate |
 |[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
 | [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
 
-[Links I Chose:]
+Links I Chose | One Thing I'd Like to Incorporate |
 | --------------- | -------------- |
 |[helloaileen.com](http://helloaileen.com/)| skill emblem pop animation
 |[eloise-ress-barrow.surge.sh](http://eloise-ress-barrow.surge.sh/#writing)| Top Nav Layout |
