@@ -17,12 +17,15 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 
 ## Project Description
-
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+I want to create my profile to be simple and straightforward but with a little pop.
+By pop I mean when you navigate onto my profile, each section will highlight itself so the reader will be able see it stand out on its own, giving each read its own flare and importance.
 
 ## Google Sheet
 
 Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+
+Troy's Google Sheet:
+(https://docs.google.com/spreadsheets/d/1pD907D-6Bm1QTSsVk2jL2TWuzKfuDxXTkr1rMtU14pE/edit#gid=0)
 
 ## Portfolio I want to Emulate
 
@@ -34,14 +37,18 @@ Link To Site  | One Thing I'd Like To Incorporate |
 |[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
 | [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
 
----
+[Links I Chose:]
+
+---|[helloaileen.com](http://helloaileen.com/)| skill emblem pop animation|
+|[eloise-ress-barrow.surge.sh](http://eloise-ress-barrow.surge.sh/#writing)| Top Nav Layout |
+|[lianapenn.com](https://www.lianapenn.com/)| project windows pop when hightlighted |
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://res.cloudinary.com/ds7w3ysag/image/upload/v1608520101/IMG_2492_kyi0eg.jpg)
+- [Desktop](https://res.cloudinary.com/ds7w3ysag/image/upload/v1608520121/IMG_2493_jcrp9i.jpg)
 
 Wireframing Resources:
 
@@ -53,6 +60,9 @@ Wireframing Resources:
 
 [Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
 
+[My-Link](https://res.cloudinary.com/ds7w3ysag/image/upload/v1608520133/IMG_2494_f9rbsm.jpg)
+[Other-Link](https://res.cloudinary.com/ds7w3ysag/image/upload/v1608520146/IMG_2495_ddyt2s.jpg)
+
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
 Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
@@ -63,7 +73,7 @@ Once complete tally up the time and determine how long the project will take to 
 
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP (examples)
 
@@ -85,26 +95,25 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Sections | H | 3hr | hr |
+| Responsive | H | 3hr | hr |
+| Regular Nav | H | 2hr | hr |  
+| Hamburger | L | 1.5hr|  hr | 
+| Flexbox Display| M | 2hr | hr|
+| Skills with Emblems | H | 1.5hrs|  hr | 
+| links | H | 2hr | hr | hr |
+| Total | H | 15hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Bootstrap | H | 3.5hr | -hr | hr |
+| section highlight pop effect | M | 2.5hr | hr |
+| custom icon | M | 3hr | hr |
+| Materialize | H | 3hr | -hr | hr |
+| emblems effects | H | 2hr | hr |
+| background images | L | 2hr | hr |
+| Total | H | 16hrs| hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
