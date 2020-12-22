@@ -38,9 +38,9 @@ body {
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
-* {
+/* * {
   border: 1px solid;
-}
+} */
 
 /* .container {
   display: grid;
@@ -55,15 +55,22 @@ header {
   display: grid;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  background-image: url("https://res.cloudinary.com/ds7w3ysag/image/upload/v1608574645/TL_Logo_dnlgyb.png");
-  background-repeat: no-repeat;
-  background-size: 50px;
-   min-height: 100px;
-   border-bottom: 1px solid;
+  min-height: 60px;
+  border-bottom: 1px solid;
   }
+
   h1{
     display: none;
   }
+
+  div#logo {
+    display: flex;
+    justify-content: flex-start;
+    padding:18px 0px 18px 0px; 
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+ 
 
 .main {
   display:grid;
@@ -101,13 +108,13 @@ nav {
   color: purple;
   display: flex;
   justify-content: flex-end;
-
+  align-items: center;
 }
 
  ul {
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding:18px 0px 18px 0px; 
   margin-left: 20px;
  
 }
@@ -119,14 +126,18 @@ ul li {
   
 }
 
-nav i.fas.fa-bars{
-   position: fixed;
-    right: 30px;
-    top: 10px;
-    
-
+div#hamburger {
+  display: flex;
+  color: blue;
+  position: fixed;
+  left: 90%;
+  bottom: 90%;
+  right: 80%;
+  
 }
 
+
+ 
 .list {
   display: none;
 }
