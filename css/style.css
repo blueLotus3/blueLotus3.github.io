@@ -38,9 +38,9 @@ body {
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
-/* * {
+* {
   border: 1px solid;
-} */
+}
 
 /* .container {
   display: grid;
@@ -48,7 +48,6 @@ body {
   grid-template-rows: auto, 1fr, auto 
   
 } */
-
 
 header {
   color: red;
@@ -67,7 +66,7 @@ header {
     display: flex;
     justify-content: flex-start;
     padding:18px 0px 18px 0px; 
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 5px;
   }
  
@@ -75,7 +74,7 @@ header {
 .main {
   display:grid;
   grid-template-columns: 2fr, 1fr, 1fr;
-  ;
+  
 }
   
 section {
@@ -132,12 +131,16 @@ div#hamburger {
   position: fixed;
   left: 90%;
   bottom: 90%;
-  right: 80%;
+  right: 70%;
   
 }
 
 
  
-.list {
-  display: none;
+#menu {
+  display: flex;
+  /* display:none; */
 }
+
+.menu_item1 { 
+  }
