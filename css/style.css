@@ -91,7 +91,9 @@ section {
 }
 
 .section-3 {
+  display: grid;
   color: grey;
+  
 }
 aside {
   color: blue;
@@ -128,19 +130,31 @@ ul li {
 div#hamburger {
   display: flex;
   color: blue;
-  position: fixed;
+  position: absolute;
   left: 90%;
   bottom: 90%;
   right: 70%;
-  
+  cursor: pointer;
 }
 
 
  
 #menu {
   display: flex;
-  /* display:none; */
+  display:none;
 }
 
 .menu_item1 { 
+  cursor: pointer;
+  }
+
+  .section-3  {
+     display: flex;
+     flex-direction: column;
+    
+  }
+  .col-xs-6 {
+    display: grid;
+    
+    
   }
