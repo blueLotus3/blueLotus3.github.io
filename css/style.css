@@ -62,12 +62,18 @@ header {
     display: none;
   }
 
+
+  body {
+    
+  }
+
   div#logo {
     display: flex;
     justify-content: flex-start;
     padding:18px 0px 18px 0px; 
     margin-left: 20px;
     margin-top: 5px;
+   
   }
  
 
@@ -153,8 +159,5 @@ div#hamburger {
      flex-direction: column;
     
   }
-  .col-xs-6 {
-    display: grid;
-    
-    
-  }
+ 
+ 
