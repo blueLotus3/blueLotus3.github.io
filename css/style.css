@@ -63,11 +63,11 @@ header {
   }
 
 
-  body {
+  /* body {
     
-  }
+  } */
 
-  div#logo {
+  #logo {
     display: flex;
     justify-content: flex-start;
     padding:18px 0px 18px 0px; 
@@ -133,19 +133,21 @@ ul li {
   
 }
 
-div#hamburger {
+#hamburger {
   display: flex;
-  color: blue;
+  color: black;
   position: absolute;
   left: 90%;
   bottom: 90%;
   right: 70%;
   cursor: pointer;
+  width: 35px;
+
 }
 
 
  
-#menu {
+#side-menu {
   display: flex;
   display:none;
 }
@@ -159,5 +161,4 @@ div#hamburger {
      flex-direction: column;
     
   }
- 
  

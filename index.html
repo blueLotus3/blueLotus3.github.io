@@ -49,25 +49,23 @@
       <div class ="container">
           <Header>
             <h1>Troy Lemons Jr - Software Engineer Student</h1>
-            <div id="logo">  <img src ="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608574645/TL_Logo_dnlgyb.png"  width="70" height="65" alt="logo" ></div> 
+            <button onclick="" id="logo">  <img src ="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608574645/TL_Logo_dnlgyb.png"  width="70" height="65" class="logo" ></div> 
             
         
           <nav>
-            <div class ="hamburger" id="hamburger">
-              <i class="fas fa-bars fa-2x"></i>
+            <button onclick ="toggleMenu()" id="hamburger" class="hamburger_menu">
+              <i class="fas fa-bars fa-2x"></i></button>
               </div>
             <ul>
-              <div class="menu" id="menu"> 
-              <li><a href="#" class="menu_item1">About</a></li>
-              <li><a href="#" class="menu_item2">Skills</a></li>
-              <li><a href="#" class="menu_item3">Projects</a></li>
-              <li><a href="#" class="menu_item4">Contacts</a></li>
+              <button onclick="closeMenu()" id="side-menu"> 
+               <li><a href="#" id="menu_item1">About</a></li>
+              <li><a href="#" id="menu_item2">Skills</a></li>
+              <li><a href="#" id="menu_item3">Projects</a></li>
+              <li><a href="#" id="menu_item4">Contacts</a></li>
               </div>
-              
+             
             </ul>
-            <!-- <div class ="hamburger" id="hamburger">
-             <i class="fas fa-bars fa-2x"></i>
-          </div> -->
+      
          </nav>
          
           </Header>
@@ -88,32 +86,32 @@
               <h2> Skills </h2>
               <div class="col-sm-3 col-xs-6 text-center skill-div">
               <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676086/HTML5_ja7nlk.png" width="80" height="80" class="skill-badge" id="html-5">
-              <div class="skill-name" id="push-left">HTML 5</div>
+              <div class="skill-name" id="html-5">HTML 5</div>
              </div>
              <div class="col-sm-3 col-xs-6 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676095/css3_qmd3cu.png" width="80" height="80" class="skill-badge" id="css-3">
-               <div class="skill-name" id="push-left">CSS 3</div>
+               <div class="skill-name" id="css-3">CSS 3</div>
              </div>
               <div class="col-sm-3 col-xs-6 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676101/learn-javascript_swnj27.png"  width="80" height="80" class="skill-badge" id="javascript">
-               <div class="skill-name" id="push-left">Javascript/ES6</div>
+               <div class="skill-name" id="javascript">Javascript/ES6</div>
              </div>
              <div class="col-sm-3 col-xs-6 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676113/jquery_gsofae.gif" width="80" height="80" class="skill-badge" id="jquery">
-               <div class="skill-name" id="push-left">jQuery</div>
+               <div class="skill-name" id="jquery">jQuery</div>
              </div>
              <div class="col-sm-3 col-xs-6 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676931/download-1_cgousc.jpg" width="80" height="80" class="skill-badge" id="bootstrap">
-               <div class="skill-name" id="push-left">Bootstrap</div>
+               <div class="skill-name" id="bootstrap">Bootstrap</div>
              </div>
              <div class="col-sm-3 col-xs-6 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676126/github_v3gmvd.png" width="80" height="80" class="skill-badge" id="github">
-               <div class="skill-name" id="push left">Github</div>
+               <div class="skill-name" id="github">Github</div>
              </div>
             </section>
             <aside>Aside</aside>
           </main>
-          <footer>Footer</footer>
+          <footer class="contact" id="contact">Contact</footer>
       </div>
     </div>
   </body>

@@ -27,3 +27,19 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1pD907D-6Bm1QTSsVk2jL2TWuzKfu
     
    console.log(projects)
 })
+
+//////////////////////////////
+// buttons 
+//////////////////////////////
+// Hamburger and side menu
+const toggleMenu = () => {
+    document.getElementById("side-menu").style.display = "block";
+
+}
+
+const closeMenu = () => {
+    document.getElementById("side-menu").style.display = "none";
+}
+
+// List toggle to sections
+
