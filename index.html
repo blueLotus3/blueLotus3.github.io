@@ -48,7 +48,7 @@
     <div class = "Hello" id="hello">
       <div class ="container">
           <Header>
-            <h1>Troy Lemons Jr - Software Engineer Student</h1>
+            <h1>Troy Lemons Jr - Software Engineer </h1>
             <button onclick="" id="logo">  <img src ="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608574645/TL_Logo_dnlgyb.png"  width="70" height="65" class="logo" ></div> 
             
         
@@ -56,12 +56,12 @@
             <button onclick ="toggleMenu()" id="hamburger" class="hamburger_menu">
               <i class="fas fa-bars fa-2x"></i></button>
               </div>
-            <ul>
+            <ul id ="buttons">
               <button onclick="closeMenu()" id="side-menu"> 
-               <li><a href="#" id="menu_item1">About</a></li>
-              <li><a href="#" id="menu_item2">Skills</a></li>
-              <li><a href="#" id="menu_item3">Projects</a></li>
-              <li><a href="#" id="menu_item4">Contacts</a></li>
+               <li><a href="#welcome">About</a></li>
+              <li><a href="#my-skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contacts</a></li>
               </div>
              
             </ul>
@@ -70,24 +70,24 @@
          
           </Header>
           <main class ="main-content">
-            <section class="section-1">
+            <section class="section-1" id="welcome">
              <h2> Hello, I'm Troy<br>
                 Welome to a <br>
                 Small Glimpse<br>
                 About Me
             </h2>            
             </section>
-            <section class="section-2">
-              <h2> Student Software Engineer<br>
+            <section class="section-2" id="about-me">
+              <h2>  Software Engineer<br>
               Who Believes Challenges<br> Provide Better Outcomes
              </h2>
             </section>
-            <section class="section-3">
+            <section class="section-3" id="my-skills">
               <h2> Skills </h2>
               <div class="col-sm-3 col-xs-6 text-center skill-div">
               <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676086/HTML5_ja7nlk.png" width="80" height="80" class="skill-badge" id="html-5">
               <div class="skill-name" id="html-5">HTML 5</div>
-             </div>
+          </div>
              <div class="col-sm-3 col-xs-6 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676095/css3_qmd3cu.png" width="80" height="80" class="skill-badge" id="css-3">
                <div class="skill-name" id="css-3">CSS 3</div>
@@ -109,7 +109,7 @@
                <div class="skill-name" id="github">Github</div>
              </div>
             </section>
-            <aside>Aside</aside>
+            <aside class="projects" id="projects">Projects</aside>
           </main>
           <footer class="contact" id="contact">Contact</footer>
       </div>
