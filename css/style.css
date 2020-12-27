@@ -75,15 +75,17 @@ header {
     margin-left: 20px;
     margin-top: 5px;
     width: 20px;
+    background-color: -webkit-linear-gradient(to left, gold, gold);
+  background: linear-gradient(to left, gold, gold );
     
   }
  
-
+/* 
 .main {
   display:grid;
   grid-template-columns: 2fr, 1fr, 1fr;
   
-}
+} */
   
 section {
   text-align: center;
@@ -98,11 +100,7 @@ section {
   color: cyan;
 }
 
-.section-3 {
-  display: grid;
-  color: grey;
-  
-}
+
 aside {
   color: blue;
   text-align: center;
@@ -161,11 +159,7 @@ ul li {
   cursor: pointer;
   }
 
-  .section-3  {
-     display: flex;
-     flex-direction: column;
-    
-  }
+
  
 /* body {
   background-image: url("https://res.cloudinary.com/ds7w3ysag/image/upload/v1608827742/crop_p5h2mh.jpg");
@@ -174,12 +168,19 @@ ul li {
   
 } */
 
-/* body {
+body {
   background: -webkit-linear-gradient(to left, gold, white);
   background: linear-gradient(to left, white, gold );
-} */
+}
 
 
 
+.section-3 {
+  color: teal;
+  align-items: center;
+  
+}
 
-
+#project-1 {
+  cursor: pointer;
+}
