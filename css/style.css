@@ -22,17 +22,19 @@
   /* outline: 2px solid gold; */
 }
 
+@media screen and (max-width: 767px) {
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: var(--title);
+  font-family: 'Langar', cursive;
 }
 
 body {
-  font-family: var(--text);
+  font-family: 'Langar', cursive;
 }
 
 /* *******************************************
@@ -54,7 +56,7 @@ header {
   display: grid;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  min-height: 60px;
+  min-height: 100px;
   border-bottom: 1px solid;
   position: fixed;
   }
@@ -64,9 +66,10 @@ header {
   }
 
 
-  /* body {
-    
-  } */
+  body  {
+    font-family: 'Langar', cursive;
+
+  }
 
   #logo {
     display: flex;
@@ -89,10 +92,12 @@ header {
   
 section {
   text-align: center;
+  
 }
 
 .section-1 {
     color: black;
+    
     
 }
 
@@ -183,4 +188,100 @@ body {
 
 #project-1 {
   cursor: pointer;
+}
+
+
+}
+
+@media screen and (min-width:768px) {
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Langar', cursive;
+}
+
+body {
+  font-family: 'Langar', cursive;
+}
+  
+  
+  
+  header {
+    color: red;
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    min-height: 60px;
+    border-bottom: 1px solid;
+    
+    }
+  
+  
+  body {
+    background: -webkit-linear-gradient(to left, gold, white);
+    background: linear-gradient(to left, white, gold );
+  }
+
+  #logo {
+    display: none;
+ 
+  }
+    
+  #hamburger {
+ display: none;
+
+  }
+
+
+  ul li {
+    display: flex;
+    margin:10px;
+     
+    
+  }
+
+
+
+  #side-menu {
+  display: flex;
+  flex-direction: flex-end;
+  position: absolute;
+  
+}
+
+section {
+  text-align: center;
+}
+
+.section-1 {
+    color: black;
+    
+}
+
+.section-2 {
+  color: cyan;
+}
+
+
+aside {
+  color: blue;
+  text-align: center;
+}
+
+footer {
+  color: green;
+  text-align: center;
+}
+
+nav {
+  color: purple;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
 }
