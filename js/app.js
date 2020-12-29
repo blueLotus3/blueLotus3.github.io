@@ -26,12 +26,18 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1pD907D-6Bm1QTSsVk2jL2TWuzKfu
    })
     
    console.log(projects)
+
+   const final = rawProjects.map((project) => {
+
+   })
 })
 
 //////////////////////////////
 // buttons 
 //////////////////////////////
 // Hamburger and side menu
+
+
 const toggleMenu = () => {
     document.getElementById("side-menu").style.display = "block";
 
@@ -40,6 +46,7 @@ const toggleMenu = () => {
 const closeMenu = () => {
     document.getElementById("side-menu").style.display = "none";
 }
+
 
 // List toggle to sections
 
