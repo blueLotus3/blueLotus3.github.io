@@ -275,10 +275,7 @@ section {
   color: cyan;
 }
 
-.section-3 h2 {
-margin-left: 390px;
 
-}
 
 
 aside {
@@ -293,13 +290,13 @@ footer {
 
  
 #my-skills {
-  display:flex;
-  margin-left: 290px;
-  flex-flow: wrap;
-
+ margin-left: 220px;
+ 
+  
 }
-
-
+.section-3 h2 {
+  margin-right: 200px;
+}
 
 
 
