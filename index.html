@@ -49,31 +49,27 @@
   <body>
     <!-- <h1>Troy Lemons Jr - Software Engineer Student</h1> -->
     <div class = "Hello" id="hello">
-      <div class ="container">
-          <Header>
+      <Header>
             <h1>Troy Lemons Jr - Software Engineer </h1>
-            <button onclick="" id="logo">  <img src ="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608574645/TL_Logo_dnlgyb.png"  width="70" height="70" class="logo" ></div> 
-            
-        <nav>
-          
-            <button onclick ="toggleMenu()" id="hamburger" class="hamburger_menu" width="70" height="70">
+            <a href="#" id="logo" class="active"> <img src ="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608574645/TL_Logo_dnlgyb.png"  width="70" height="70" class="logo" ></div> 
+            <div class="menu-toggle"></div>
+              <nav>
+              <button onclick ="toggleMenu()" id="hamburger" class="hamburger_menu" width="70" height="70">
               <i class="fas fa-bars fa-2x"></i></button>
-              </div>
-            
-              <ul id="side-menu" class="items">
-              <!-- <button onclick="closeMenu()" id="side-menu">  -->
+              <ul>
+              <button onclick="closeMenu()" id="side-menu"> 
                   
                 <li><a href="#welcome">About</a></li>
               <li><a href="#my-skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contacts</a></li>
+              
               </div>
-             
             </ul>
           </nav>
-         
-         
-          </Header>
+       
+        </Header>
+        <body>
           <main class ="main-content">
             <section class="section-1" id="welcome">
              <h2> Hello, I'm Troy<br>
@@ -92,30 +88,30 @@
               <h2> Skills </h2>
               <div class="container-fluid" id="my-skills">
                 <div class="row">
-              <div class="col-sm-3 col-xs-6 text-center skill-div">
+              <div class="col-sm-3 col-xs-3 text-center skill-div">
               <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676086/HTML5_ja7nlk.png" width="80" height="80" class="skill-badge" id="html-5">
               <div class="skill-name" id="html-5">HTML 5</div>
           </div>
-             <div class="col-sm-3 col-xs-6 text-center skill-div">
+             <div class="col-sm-3 col-xs-3 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676095/css3_qmd3cu.png" width="80" height="80" class="skill-badge" id="css-3">
                <div class="skill-name" id="css-3">CSS 3</div>
              </div>
              
-             <div class="col-sm-3 col-xs-6 text-center skill-div">
+             <div class="col-sm-3 col-xs-3 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676101/learn-javascript_swnj27.png"  width="80" height="80" class="skill-badge" id="javascript">
               <div class="skill-name" id="javascript">Javascript/ES6</div> 
              </div>
              <div class="container-fluid">
              <div class="row"> 
-             <div class="col-sm-3 col-xs-6 text-center skill-div">
+             <div class="col-sm-3 col-xs-3 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676113/jquery_gsofae.gif" width="80" height="80" class="skill-badge" id="jquery">
                <div class="skill-name" id="jquery">jQuery</div> 
              </div>
-             <div class="col-sm-3 col-xs-6 text-center skill-div">
+             <div class="col-sm-3 col-xs-3 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676931/download-1_cgousc.jpg" width="80" height="80" class="skill-badge" id="bootstrap">
                <div class="skill-name" id="bootstrap">Bootstrap</div>
              </div>
-             <div class="col-sm-3 col-xs-6 text-center skill-div">
+             <div class="col-sm-3 col-xs-3 text-center skill-div">
                <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676126/github_v3gmvd.png" width="80" height="80" class="skill-badge" id="github">
                <div class="skill-name" id="github">Github</div> 
                </div>
@@ -136,19 +132,17 @@
               </sl-card>
             </main>
           <footer class="contact" id="contact"><h2>Contact</h2>
-            <sl-card class="card-image">
+            <sl-card class="contact-me">
               <img 
                 slot="image" 
                 src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1609284627/IMG_8380_hjlcp2.jpg" 
                 alt="my contacts"
                 
               >
-
-
-             <span>Let's Collaborate<br> 
+                  Let's Collaborate<br> 
              email: troylemonsjr@gmail.com<br>
              <p> <a href="https://github.com/blueLotus3" target="_blank"><img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1609030925/download_soap9c.png" width="100" height="100" id="project-2"> 
-             </a> </p>
+             </a> </p>  
             </sl-card>
           
           
