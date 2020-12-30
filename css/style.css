@@ -56,8 +56,9 @@ header {
   display: grid;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  min-height: 100px;
-  border-bottom: 1px solid;
+  min-height: 70px;
+  padding: 10px;
+  /* border-bottom: 1px solid; */
   position: fixed;
   
   }
@@ -83,7 +84,7 @@ header {
     width: 20px; */
     background-color: -webkit-linear-gradient(to left, gold, gold);
   background: linear-gradient(to left, gold, gold );
-    
+   height: 50px;
   }
   #logo:hover {
     background-color: white;
@@ -144,11 +145,13 @@ nav {
   display: flex;
   color: black;
   position: fixed;
+  /* height: 50px; */
+  /* line-height: 50px; */
   left: 90%;
-  bottom: 90%;
+  bottom: 91%;
   right: 70%;
   cursor: pointer;
-  width: 35px;
+  width: 30px;
   border: 0px;
   border-radius: .5em, 2em;
 }
@@ -159,11 +162,15 @@ nav {
  
 #side-menu {
   display: flex;
+  font-size: 25px;
+  justify-content: center;
   display:none;
-  position: fixed;
-  align-items: center;
-  background-color:white;
+  padding: 20px 180px 20px 180px;
+  position: absolute;
+  background-color:gold;
   cursor: pointer;
+  overflow: hidden;
+
 }
 
 /* #side-menu:hover {
