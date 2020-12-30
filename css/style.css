@@ -40,9 +40,9 @@ body {
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
-* {
+/* * {
   border: 1px solid;
-}
+} */
 
 /* .container {
   display: grid;
@@ -202,6 +202,8 @@ h4,
 h5,
 h6 {
   font-family: 'Langar', cursive;
+
+}
 }
 
 
@@ -210,6 +212,9 @@ h6 {
   border: 1px solid;
 } */
 
+
+
+
 body {
   font-family: 'Langar', cursive;
 }
@@ -217,11 +222,10 @@ body {
   
   
   header {
-    color: red;
-    display: grid; 
-     grid-column: 1 / 2;
-    grid-row: 1 / 2;
-   min-height: 60px;
+    color:grey;
+    display: flex;
+
+    min-height: 60px;
     border-bottom: 1px solid;
     }
   
@@ -247,8 +251,9 @@ body {
   ul li {
      display: flex;
     margin:10px;
-    list-style-type: none; 
     
+    list-style-type: none; 
+ 
   }
 
   
@@ -257,9 +262,11 @@ body {
 
   #side-menu {
   display: flex;
-  flex-direction: flex-end;
-  position: absolute;
- 
+  flex-direction: row;
+  justify-content: flex-end!important;
+
+  /* position: absolute;
+  */
 }
 
 section {
@@ -272,7 +279,7 @@ section {
 }
 
 .section-2 {
-  color: cyan;
+  color: black;
 }
 
 
@@ -288,18 +295,16 @@ footer {
   text-align: center;
 }
 
- 
-#my-skills {
- margin-left: 220px;
- 
-  
-}
-.section-3 h2 {
-  margin-right: 200px;
+#skill-name {
+  display: flex;
 }
 
 
 
-}
+
+
+
+
+
 
 
