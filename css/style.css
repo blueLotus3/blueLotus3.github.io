@@ -108,7 +108,7 @@ section {
 }
 
 .section-2 {
-  color: cyan;
+  color: black;
 }
 
 
@@ -187,8 +187,15 @@ body {
   
 }
 
-#project-1 {
+#project-2 {
   cursor: pointer;
+ 
+}
+
+
+#contact img {
+border-radius: 20px;
+
 }
 
 
@@ -285,7 +292,7 @@ section {
 
 .section-1 {
     color: black;
-    
+    text-align: center;
 }
 
 .section-2 {
