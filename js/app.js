@@ -27,6 +27,19 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1pD907D-6Bm1QTSsVk2jL2TWuzKfu
     
    console.log(projects)
 
+ 
+   for (i = 0; i < projects.length; i++) {
+       const $div = $(`<sl-card class="card-image">
+       <img slot="image" src=${projects[i].img}
+       alt="Portfolio Project"><strong><h3 class-projname>${projects[i].name}</h3></strong>
+       <p class=description>${projects[i].description}</p>
+       <div-slot="footer">
+       <sl-button class='git' href=${projects[i].git}>The Code</sl-button>
+       <sl-button class='live' href=${projects[i].live}>The Project</sl-button>
+       </sl-card`
+       )
+       $(`#projects`).append($div)
+   }
    const final = rawProjects.map((project) => {
 
    })
@@ -50,7 +63,5 @@ const closeMenu = () => {
 
 
 
-
-// List toggle to sections
 
 
