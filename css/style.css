@@ -101,6 +101,7 @@ section {
   text-align: center;
   }
 
+
 .section-1 {
 color: black;
 }
@@ -111,8 +112,13 @@ color: black;
 
 
 aside {
-  color: blue;
+  color: black;
   text-align: center;
+}
+
+
+.projects {
+ color: green;
 }
 
 footer {
@@ -120,7 +126,7 @@ footer {
   text-align: center;
 }
 
-nav {
+nav  {
   color: purple;
   display: flex;
   justify-content: flex-end;
@@ -128,7 +134,7 @@ nav {
 }
 
  ul {
-  display: flex;
+   display: flex;
   justify-content: flex-end;
   padding:18px 0px 18px 0px; 
   margin-left: 20px;
@@ -141,7 +147,7 @@ nav {
 #hamburger {
   display: flex;
   color: black;
-  position: fixed;
+  position: absolute;
   /* height: 50px; */
   /* line-height: 50px; */
   left: 90%;
@@ -190,7 +196,7 @@ body {
 
 
 .section-3 {
-  color: teal;
+  color:green;
   align-items: center;
   
 }
@@ -242,11 +248,12 @@ body {
   
   
 header {
-  color: grey;
+  color: green;
   display: grid;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   padding: 10px;
+  margin-top: 15px;
   /* border-bottom: 1px solid; */
   /* position: absolute;  */
 }
@@ -321,7 +328,7 @@ a {
 
 section {
   text-align: center;
-
+color: green;
 }
 
 
@@ -336,15 +343,15 @@ section {
   color: black;
 }
 
-.section-3 .row {
+.section-3 .container-fluid {
   margin: auto;
+  color: green;
 }
 
 
 
-
 aside {
-  color: blue;
+  color: green;
   text-align: center;
 }
 
@@ -354,7 +361,8 @@ footer {
 }
 
 #my-skills {
-  display: flex;
+  margin: auto;
+  margin-left:110px;
 }
 
 
@@ -369,6 +377,71 @@ footer {
   border-radius: 20px;
   border: 7px solid gold;
   }
+
+
+
+
+} 
+
+
+
+ @media screen and (min-width:900px) {
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Langar', cursive;
+
+}
+header {
+  color:green
+}
+
+#hamburger {
+  display: flex;
+  color: black;
+  position: absolute;
+  /* height: 50px; */
+  /* line-height: 50px; */
+  left: 90%;
+  bottom: 91%;
+  right: 70%;
+  cursor: pointer;
+  width: 30px;
+  border: 0px;
+  border-radius: .5em, 2em;
+}
+
+
+
+#side-menu {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  display:none;
+   padding: 20px 180px; 
+  position: absolute;
+  background-color:gold;
+  cursor: pointer;
+  overflow: hidden;
+  border-top: 10px solid black;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid black;
+  margin-left: 950px;
+  
+}
+
+
+
+
+
+
+
+
+
 
 
 
