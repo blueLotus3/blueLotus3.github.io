@@ -99,13 +99,10 @@ header {
   
 section {
   text-align: center;
-  
-}
+  }
 
 .section-1 {
-    color: black;
-    
-    
+color: black;
 }
 
 .section-2 {
@@ -212,7 +209,11 @@ border: 7px solid gold;
 
 }
 
- @media screen and (min-width:768px) {
+ 
+
+
+
+@media screen and (min-width:768px) {
   h1,
 h2,
 h3,
@@ -236,38 +237,52 @@ h6 {
 body {
   font-family: 'Langar', cursive;
 }
+
+
   
   
-  
-  header {
-    color:grey;
-    display: flex;
-    width: 100%;
-    border-bottom: 1px solid;
-    min-height: 70px;
-    padding: 10px;
-    }
+header {
+  color: grey;
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  padding: 10px;
+  /* border-bottom: 1px solid; */
+  /* position: absolute;  */
+}
     
     body {
+      margin: 0;
+      padding: 0;
     background: -webkit-linear-gradient(to left, gold, white);
     background: linear-gradient(to left, white, gold );
+    
   }
+  #hamburger {
+    display: flex;
+    color: black;
+    position: absolute;
+    /* height: 50px; */
+    /* line-height: 50px; */
+    left: 90%;
+    bottom: 91%;
+    right: 70%;
+    cursor: pointer;
+    width: 30px;
+    border: 0px;
+    border-radius: .5em, 2em;
+  }
+
+
 
   #logo {
     display: none;
     }
     
-  #hamburger {
- display: none;
-
-  }
-
-
-
 
   ul li {
      display: flex;
-     margin:10px;
+     /* margin:10px; */
     list-style-type: none; 
     
   }
@@ -275,8 +290,7 @@ body {
     display: inline;
     margin: 10px 0;
     padding: 10px 20px;
-
-  }
+}
 a {
   display: block;
   padding: 8px;
@@ -285,27 +299,37 @@ a {
 
 
 
-  #side-menu {
+#side-menu {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end!important;
-  background: -webkit-linear-gradient(to left, gold, white);
-  background: linear-gradient(to left, white, gold );
+  font-size: 25px;
+  justify-content: center;
+  display:none;
+  /* padding: 20px 180px; */
+  position: absolute;
+  background-color:gold;
   cursor: pointer;
-   left: 90%;
-  bottom: 91%;
-  right: 70%; 
-  } 
+  overflow: hidden;
+  border-top: 10px solid black;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid black;
+  margin-left: 650px;
+  
+}
 
 
 
 section {
   text-align: center;
+
 }
 
+
 .section-1 {
-    color: black;
+  display: block;  
+  color: black;
     text-align: center;
+    
 }
 
 .section-2 {
@@ -334,12 +358,17 @@ footer {
 }
 
 
+
 footer {
   display: block;
 
 }
 
 
+#contact img {
+  border-radius: 20px;
+  border: 7px solid gold;
+  }
 
 
 

@@ -29,14 +29,14 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1pD907D-6Bm1QTSsVk2jL2TWuzKfu
 
  
    for (i = 0; i < projects.length; i++) {
-       const $div = $(`<sl-card class="card-image">
+       const $div = $(`<sl-card class="projects">
        <img slot="image" src=${projects[i].img}
-       alt="Portfolio Project"><strong><h3 class-projname>${projects[i].name}</h3></strong>
-       <p class=description>${projects[i].description}</p>
-       <div-slot="footer">
+       alt="Portfolio Project" <strong><h3 "projects">${projects[i].name}</h3></strong>
+       <p class=description ${projects[i].description}</p>
+       <div-slot="aside">
        <sl-button class='git' href=${projects[i].git}>The Code</sl-button>
        <sl-button class='live' href=${projects[i].live}>The Project</sl-button>
-       </sl-card`
+       </sl-card>`
        )
        $(`#projects`).append($div)
    }
