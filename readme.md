@@ -8,12 +8,12 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete;
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
+|Day 6| Present | Complete;
 
 
 ## Project Description
@@ -95,25 +95,25 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Sections | H | 3hr | hr |
-| Responsive | H | 3hr | hr |
-| Regular Nav | H | 2hr | hr |  
-| Hamburger | L | 1.5hr|  hr | 
-| Flexbox Display| M | 2hr | hr|
-| Skills with Emblems | H | 1.5hrs|  hr | 
-| links | H | 2hr | hr | hr |
-| Total | H | 15hrs| hrs |
+| Sections | H | 3hr | 4hr |
+| Responsive | H | 3hr | 6hr |
+| Regular Nav | H | 2hr | 4hr |  
+| Hamburger | L | 1.5hr|  2.5hr | 
+| Flexbox Display| M | 2hr | 2hr|
+| Skills with Emblems | H | 1.5hrs| 2hr | 
+| links | H | 2hr | hr | 2hr |
+| Total | H | 15hrs| 22.5hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Bootstrap | H | 3.5hr | -hr | hr |
-| section highlight pop effect | M | 2.5hr | hr |
-| custom icon | M | 3hr | hr |
-| Materialize | H | 3hr | -hr | hr |
-| emblems effects | H | 2hr | hr |
-| background images | L | 2hr | hr |
-| Total | H | 16hrs| hrs |
+| Bootstrap | H | 3.5hr | -hr | 3hr |
+| section highlight pop effect | M | 2.5hr | 3hr |
+| custom icon | M | 3hr | 2hr |
+| Materialize | H | 3hr | -hr | 5hr |
+| emblems effects | H | 2hr | 2.5hr |
+| background images | L | 2hr | 2hr |
+| Total | H | 16hrs| 17.5hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
