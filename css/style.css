@@ -74,7 +74,7 @@ header {
     font-family: 'Langar', cursive;
 
   }
-
+/* made a logo on logomaker then uploaded it to cloudinary */
   #logo {
     display: flex;
     justify-content: flex-start;
@@ -132,7 +132,7 @@ nav  {
   justify-content: flex-end;
   align-items: center;
 }
-
+/* used flex to rearrange the way the list of nav butons sit */
  ul {
    display: flex;
   justify-content: flex-end;
@@ -143,7 +143,7 @@ nav  {
 
 
 
-
+/* made a hamburger using these components */
 #hamburger {
   display: flex;
   color: black;
@@ -162,7 +162,7 @@ nav  {
   background-color: blue;
 } */
 
- 
+ /* made my list more organized by adding some color and border lines */
 #side-menu {
   display: flex;
   font-size: 25px;
@@ -188,6 +188,8 @@ nav  {
   cursor: pointer;
   }
 
+ /* learned about webkit abd linear gradient on various sites
+ to add some flare to my color through css guides, w3schools, and stackoverflow */ 
 body {
   background: -webkit-linear-gradient(to left, gold, white);
   background: linear-gradient(to left, white, gold );
@@ -203,7 +205,8 @@ body {
 
 
 
-
+/*I learned how to use keyframes through various sites I researched
+I looked into css guides, w3schools, stack overflow */
 .section-3 #badge:hover {
   animation: shake 0.5s;
 }
@@ -235,7 +238,8 @@ body {
  
 }
 
-
+/* rounded out my img border to give it a neater look
+ and put some gold to make it pop  */
 #contact img {
 border-radius: 20px;
 border: 7px solid gold;
@@ -247,7 +251,7 @@ border: 7px solid gold;
  
 
 
-
+/* When going into tablet and desktop the logo changes to my name */
 @media screen and (min-width:768px) {
   h1,
 h2,
