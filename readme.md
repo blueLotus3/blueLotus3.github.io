@@ -101,16 +101,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Hamburger | L | 1.5hr|  2.5hr | 
 | Flexbox Display| M | 2hr | 2hr|
 | Skills with Emblems | H | 1.5hrs| 2hr | 
-| links | H | 2hr | hr | 2hr |
+| links | H | 2hr | 2hr | 2hr |
 | Total | H | 15hrs| 22.5hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Bootstrap | H | 3.5hr | -hr | 3hr |
+| Bootstrap | H | 3.5hr | 3hr | 3hr |
 | section highlight pop effect | M | 2.5hr | 3hr |
 | custom icon | M | 3hr | 2hr |
-| Materialize | H | 3hr | -hr | 5hr |
+| Materialize | H | 3hr | 5hr | 5hr |
 | emblems effects | H | 2hr | 2.5hr |
 | background images | L | 2hr | 2hr |
 | Total | H | 16hrs| 17.5hrs |
